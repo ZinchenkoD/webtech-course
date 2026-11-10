@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <style type="text/css">
+    .schedule-table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    .schedule-table td, .schedule-table th {
+      border: 1px solid black;
+      padding: 10px 5px;
+      overflow: hidden;
+      word-break: normal;
+    }
+    
+    .schedule-table .header-cell {
+      background-color: #34CDF9;
+      color: #FFFFFF;
+      font-weight: bold;
+      text-align: center;
+      vertical-align: top;
+    }
+    .schedule-table .time-cell {
+      font-weight: bold;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .schedule-table .empty-cell {
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .schedule-table .lecture {
+      background-color: #FFFFC7;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .schedule-table .lab {
+      background-color: #DAE8FC;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .schedule-table .practice {
+      background-color: #9AFF99;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .schedule-table .exam {
+      background-color: #96FFFB;
+      text-align: center;
+      vertical-align: middle;
+    }
+  </style>
+
+<header>
+  <nav>
+    <a href="main.html">Home</a>
+    <a href="main.html#about-me">Про мене</a>
+    <a href="main.html#hands-on">Практичні роботи</a>
+    <a href="main.html#labs">Лабораторні роботи</a>
+  </nav>
+</header>
+
+<table class="schedule-table">
+  <thead>
+    <tr>
+      <th class="header-cell">Пн</th>
+      <th class="header-cell">09.11.2026</th>
+      <th class="header-cell">16.11.2026</th>
+      <th class="header-cell">23.11.2026</th>
+      <th class="header-cell">30.11.2026</th>
+      <th class="header-cell">07.12.2026</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="time-cell">1 пара<br>08:00<br>09:20</td>
+      <td class="empty-cell"></td>
+      <td class="lecture">МЗШІ-2020 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="empty-cell"></td>
+      <td class="lecture">МЗШІ-2020 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">2 пара<br>09:30<br>10:50</td>
+      <td class="lecture">ЗВББ-2017 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Пильнова В.П.</td>
+      <td class="lecture">WEB-тех.-2016 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+      <td class="lecture">ЗВББ-2017 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Пильнова В.П.</td>
+      <td class="lecture">WEB-тех.-2016 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">3 пара<br>11:10<br>12:30</td>
+      <td class="lecture">ДТМІ-2018 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Бученко І.А.</td>
+      <td class="lecture">ПРО-2017 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="lecture">ДТМІ-2018 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Бученко І.А.</td>
+      <td class="lecture">ПРО-2017 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">4 пара<br>12:40<br>14:00</td>
+      <td class="lecture">МЗШІ-2020 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="empty-cell"></td>
+      <td class="lecture">МЗШІ-2020 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="empty-cell"></td>
+      <td class="exam">ПРО-2017 <span style="font-weight:bold">[Зал]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+    </tr>
+    <tr>
+      <td class="time-cell">5 пара<br>14:30<br>15:30</td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">6 пара<br>15:40<br>17:00</td>
+      <td class="lecture">ХТ-15 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Шикула О.М.</td>
+      <td class="empty-cell"></td>
+      <td class="lecture">ХТ-15 <span style="font-weight:bold">[ЛК]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Шикула О.М.</td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+    </tr>
+
+    <tr>
+      <th class="header-cell">Вт</th>
+      <th class="header-cell">10.11.2026</th>
+      <th class="header-cell">17.11.2026</th>
+      <th class="header-cell">24.11.2026</th>
+      <th class="header-cell">01.12.2026</th>
+      <th class="header-cell">08.12.2026</th>
+    </tr>
+    <tr>
+      <td class="time-cell">2 пара<br>09:30<br>10:50</td>
+      <td class="empty-cell"></td>
+      <td class="lab">МЗШІ-2020 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="empty-cell"></td>
+      <td class="lab">МЗШІ-2020 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">3 пара<br>11:10<br>12:30</td>
+      <td class="empty-cell"></td>
+      <td class="practice">МЗШІ-2020 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="empty-cell"></td>
+      <td class="practice">МЗШІ-2020 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="exam">МЗШІ-2020 <span style="font-weight:bold">[Зал]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+    </tr>
+
+    <tr>
+      <th class="header-cell">Ср</th>
+      <th class="header-cell">11.11.2026</th>
+      <th class="header-cell">18.11.2026</th>
+      <th class="header-cell">25.11.2026</th>
+      <th class="header-cell">02.12.2026</th>
+      <th class="header-cell">09.12.2026</th>
+    </tr>
+    <tr>
+      <td class="time-cell">1 пара<br>08:00<br>09:20</td>
+      <td class="practice">ПРО-2017 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="lab">ПРО-2017 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="practice">ПРО-2017 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="lab">ПРО-2017 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">2 пара<br>09:30<br>10:50</td>
+      <td class="lab">ПРО-2017 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="practice">ПРО-2017 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="lab">ПРО-2017 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="practice">ПРО-2017 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Торошанко Я.І.</td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">3 пара<br>11:10<br>12:30</td>
+      <td class="practice">МЗШІ-2020 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="lab">МЗШІ-2020 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="practice">МЗШІ-2020 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="lab">МЗШІ-2020 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Звенигородський О.С.</td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">4 пара<br>12:40<br>14:00</td>
+      <td class="lab">ДТМІ-2018 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Бученко І.А.</td>
+      <td class="practice">ДТМІ-2018 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Бученко І.А.</td>
+      <td class="lab">ДТМІ-2018 <span style="font-weight:bold">[Лб]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Бученко І.А.</td>
+      <td class="practice">ДТМІ-2018 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Бученко І.А.</td>
+      <td class="empty-cell"></td>
+    </tr>
+    <tr>
+      <td class="time-cell">5 пара<br>14:30<br>15:30</td>
+      <td class="empty-cell"></td>
+      <td class="practice">ХТ-15 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Шикула О.М.</td>
+      <td class="empty-cell"></td>
+      <td class="practice">ХТ-15 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Шикула О.М.</td>
+      <td class="empty-cell"></td>
+    </tr>
+
+    <tr>
+      <th class="header-cell">Чт</th>
+      <th class="header-cell">12.11.2026</th>
+      <th class="header-cell">19.11.2026</th>
+      <th class="header-cell">26.11.2026</th>
+      <th class="header-cell">03.12.2026</th>
+      <th class="header-cell">10.12.2026</th>
+    </tr>
+    <tr>
+      <td class="time-cell">1 пара<br>08:00<br>09:20</td>
+      <td class="practice">ЗВББ-2017 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Пильнова В.П.</td>
+      <td class="practice">WEB-тех.-2016 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+      <td class="practice">ЗВББ-2017 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Пильнова В.П.</td>
+      <td class="practice">WEB-тех.-2016 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+      <td class="exam">WEB-тех.-2016 <span style="font-weight:bold">[Зал]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+    </tr>
+    <tr>
+      <td class="time-cell">2 пара<br>09:30<br>10:50</td>
+      <td class="practice">WEB-тех.-2016 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+      <td class="practice">WEB-тех.-2016 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+      <td class="practice">WEB-тех.-2016 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+      <td class="practice">WEB-тех.-2016 <span style="font-weight:bold">[Пз]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Дзюба В.В</td>
+      <td class="empty-cell"></td>
+    </tr>
+
+    <tr>
+      <th class="header-cell">Пт</th>
+      <th class="header-cell">13.11.2026</th>
+      <th class="header-cell">20.11.2026</th>
+      <th class="header-cell">27.11.2026</th>
+      <th class="header-cell">04.12.2026</th>
+      <th class="header-cell">11.12.2026</th>
+    </tr>
+    <tr>
+      <td class="time-cell">4 пара<br>12:40<br>14:00</td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="exam">ЗВББ-2017 <span style="font-weight:bold">[Зал]</span><br><span style="font-weight:bold">ауд. Дистанц.</span><br>Пильнова В.П.</td>
+    </tr>
+
+    <tr>
+      <th class="header-cell">Сб</th>
+      <th class="header-cell">14.11.2026</th>
+      <th class="header-cell">21.11.2026</th>
+      <th class="header-cell">28.11.2026</th>
+      <th class="header-cell">05.12.2026</th>
+      <th class="header-cell">12.12.2026</th>
+    </tr>
+    <tr>
+      <td class="time-cell">1 пара<br>08:00<br>09:20</td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+    </tr>
+
+    <tr>
+      <th class="header-cell">Нд</th>
+      <th class="header-cell">15.11.2026</th>
+      <th class="header-cell">22.11.2026</th>
+      <th class="header-cell">29.11.2026</th>
+      <th class="header-cell">06.12.2026</th>
+      <th class="header-cell">13.12.2026</th>
+    </tr>
+    <tr>
+      <td class="time-cell">1 пара<br>08:00<br>09:20</td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+      <td class="empty-cell"></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

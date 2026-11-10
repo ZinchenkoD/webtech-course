@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+main section, header{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: white;
+}
+
+nav{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.main__about-me_leftside{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1{
+    color: #E09F3E;
+}
+
+.main__about-me_leftside p {
+    font-size: 18px;
+}
+
+.main__about_me-rightside img{
+    width: 400px;
+    border-radius: 200px;
+    border: 10px solid;
+    border-color: #FFF3B0;
+    
+}
+
+.main__about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.works_button{
+    padding: 10px 15px;
+    background-color: #98C1CD;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.main__hands-on-works div, .main__lab-works div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.main__hands-on-works, .main__lab-works{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-self: center;
+    border-radius: 40px;
+    padding: 50px 0;
+}
+
+h2{
+    align-self: center;
+}
+
+.about-me__socials{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #15616d;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer div{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
